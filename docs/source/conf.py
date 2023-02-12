@@ -16,7 +16,9 @@ release = '0.0.0'
 
 # extensions = []
 extensions = ['sphinx.ext.mathjax',
-    'sphinx.ext.githubpages']
+    'sphinx.ext.githubpages',
+    'nbsphinx',
+    'IPython.sphinxext.ipython_console_highlighting']
 
 templates_path = ['_templates']
 
@@ -24,7 +26,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.ipynb']
 
 # The master toctree document.
 master_doc = 'index'
@@ -33,7 +35,7 @@ master_doc = 'index'
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
 # exclude_patterns = []
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '**.ipynb_checkpoints']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
