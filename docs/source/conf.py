@@ -15,9 +15,9 @@ release = '0.0.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 # extensions = []
-extensions = ['sphinx.ext.mathjax',
-    'sphinx.ext.githubpages',
+extensions = ['sphinx.ext.githubpages',
     'nbsphinx',
+    'sphinx.ext.mathjax',
     'IPython.sphinxext.ipython_console_highlighting']
 
 templates_path = ['_templates']
@@ -26,7 +26,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = ['.rst', '.ipynb']
+source_suffix = ['.rst', '.ipynb', '.md']
 
 # The master toctree document.
 master_doc = 'index'
