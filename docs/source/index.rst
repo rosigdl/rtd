@@ -7,7 +7,9 @@ I have no intention to break the copyright. I just want to share a great content
 Links
 
 * `Petar Veličković <https://petar-v.com>`_
+* `goolge scholar <https://scholar.google.com/citations?user=kcTK_FAAAAAJ&hl=en&oi=sra>`_
 * `Geometric Deep Learning <https://geometricdeeplearning.com/>`_
+* 
 
 Libraries
 
@@ -70,3 +72,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
