@@ -32,6 +32,27 @@ Datasets
     math_notation
 
 .. toctree::
+    :caption: CS224w_2021_fall
+    :maxdepth: 1
+    :glob:
+    
+    ipynbs/cs224w_2021_fall/*
+
+.. toctree::
+    :caption: PyTorch_Geometric
+    :maxdepth: 1
+    :glob:
+    
+    ipynbs/pytorch_geometric/*
+
+.. toctree::
+    :caption: Pyg_Tutorial_Project
+    :maxdepth: 1
+    :glob:
+    
+    ipynbs/pyg_tutorial_project/*
+
+.. toctree::
     :caption: Category_theory
     :maxdepth: 1
     
